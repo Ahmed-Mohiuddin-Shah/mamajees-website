@@ -1,7 +1,7 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'MamaJees',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
+    'MamaJees is a restaurant that serves delicious Homemade food. We are located in the heart of the city of Quetta.',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+  url: 'https://mamajees.netlify.app',
 };
