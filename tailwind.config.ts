@@ -24,6 +24,16 @@ export default {
           950: 'rgb(var(--tw-color-primary-950) / <alpha-value>)',
         },
         dark: '#222222',
+        'mama-dark-gray': '#262626',
+        'mama-navy-blue': '#112026',
+        'mama-dark-blue': '#3f6e73',
+        'mama-light-blue': '#6da0a6',
+        'mama-aqua-blue': '#69b7bf',
+        'mama-creme-white': '#f2ebdc',
+        'mama-off-white': '#b08d57',
+        'mama-bingo-brown': '#b08d57',
+        'mama-chilli-brown': '#8e6f5e',
+        'mama-coffee-brown-light': '#d9c6b0',
       },
       keyframes: {
         flicker: {
