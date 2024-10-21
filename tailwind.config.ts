@@ -3,10 +3,11 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Inter', ...defaultTheme.fontFamily.sans],
+        primary: ['Solitreo', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: {
@@ -23,7 +24,6 @@ export default {
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
           950: 'rgb(var(--tw-color-primary-950) / <alpha-value>)',
         },
-        dark: '#222222',
         'mama-dark-gray': '#262626',
         'mama-navy-blue': '#112026',
         'mama-dark-blue': '#3f6e73',
