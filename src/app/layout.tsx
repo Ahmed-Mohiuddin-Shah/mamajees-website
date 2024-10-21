@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   // ! copy to /favicon folder
   icons: {
     icon: '/favicon/favicon.ico',
-    shortcut: '/favicon/favicon-16x16.png',
+    shortcut: '/favicon/favicon-48x48.png',
     apple: '/favicon/apple-touch-icon.png',
   },
   manifest: `/favicon/site.webmanifest`,
@@ -55,8 +55,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
-      <body>{children}</body>
+    <html lang='en'>
+      <body
+        className='
+      dark:bg-mama-dark-gray
+      dark:text-mama-creme-white
+      bg-mama-creme-white 
+      text-mama-dark-gray'
+      >
+        {children}
+      </body>
     </html>
   );
 }
